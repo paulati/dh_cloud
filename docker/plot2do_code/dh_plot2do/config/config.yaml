@@ -1,0 +1,23 @@
+application:
+  paths:
+    source: 
+    # config:
+    reads: 
+    annotations:
+    output:
+  aws:
+    accountKey: "" 
+    accountSecret: ""
+    s3:
+      reads:
+        bucketName: grupo5-plot2do
+        baseName: bams
+      cleanData:
+        bucketName: grupo5-plot2do
+        baseName: clean_data
+      coverageData:
+        bucketName: grupo5-plot2do
+        baseName: coverage_matrix
+      plotSite:
+        bucketName: grupo5-staticsite
+        baseName: ''
